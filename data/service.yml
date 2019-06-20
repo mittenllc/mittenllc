@@ -1,0 +1,45 @@
+enable: true
+title: Our Services
+subtitle: >
+  Choose a single service or create a bundle to fit your needs. Unsure? Start with a two-week assessment to tailor your own roadmap.
+content:
+
+  - icon: ion-power
+    name: Product Strategy
+    text: >
+      Realize your product vision within acquisition and contract strategies; Manage roadmaps through outcome-based milestones alongside traditional earned value analysis
+
+  - icon: ion-compass
+    name: Product Coaching
+    text: >
+      Accelerate your team's ability to deliver customer value; Develop product leadership while building great products
+
+  - icon: ion-aperture
+    name: Product Discovery
+    text: > 
+      Dedicated resources to identify pain points and opportunities; Capture and communicate user-centric requirements using a Canvas Framework
+
+  - icon: ion-navigate
+    name: Business Transformation
+    text: >
+      Become a product-first organization; Align organizational resources around products (vice programs) to improve budget appropriations, enterprise architecture, and technical reviews
+
+  # - icon: ion-headphone
+  #  name: Logo Design
+  #  text: >
+  #    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  #- icon: ion-leaf
+  #  name: Development
+  #  text: >
+  #    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  #- icon: ion-planet
+  #  name: Brand Identity
+  #  text: >
+  #    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  #- icon: ion-earth
+  #  name: Brand Identity
+  #  text: >
+  #    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut

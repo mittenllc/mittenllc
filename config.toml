@@ -1,0 +1,105 @@
+title = "Mitten LLC"
+baseURL = "/"
+languageCode = "en-us"
+theme = "airspace-hugo"
+
+# The site's parameters
+[params]
+  home = "Home"
+  
+  [menu]
+
+    #[[menu.header]]
+    #  weight = 2
+    #  name = "Work"
+    #  url = "/work"
+    #[[menu.header]]
+    #  weight = 3
+    #  name = "Blog"
+    #  url = "/blog"
+    [[menu.header]]
+      weight = 4
+      name = "Service"
+      url = "/service"
+    [[menu.header]]
+      weight = 5
+      name = "Contact"
+      url = "/contact"
+
+    #[[menu.footer]]
+    #  weight = 1
+    #  name = "About us"
+    #  url = "#"
+    [[menu.footer]]
+      weight = 2
+      name = "Contact us"
+      url = "/contact"
+    #[[menu.footer]]
+    #  weight = 3
+    #  name = "How it works"
+    #  url = "#"
+    #[[menu.footer]]
+    #  weight = 4
+    #  name = "Blog"
+    #  url = "/blog"
+    [[menu.footer]]
+      weight = 5
+      name = "Terms"
+      url = "/terms"
+
+  [params.slider]
+    enable = true
+    title = "A Product Operations Company"
+    subtitle = "Product Management tailored for Dept. of Defense, Federal Agencies, and US Government contractors"
+    bgImage = "img/leo-fosdal.jpg"
+    btnText = "Discover Our Services"
+    url = "/service"
+
+  [params.wrapper]
+    enable = true
+    image = "img/beverage-blackboard-coffee.jpg"
+    title = "About Us"
+    italic = " Product is in our DNA"
+    paragraph = "From the introduction of the first 802.11 operational network to advancing the adoption of user-centric requirements, Mitten has been transforming the way DoD Components are defining and engineering through a product-first approach."
+  
+  [params.blog]
+    enable = false
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+  [params.feature]
+    enable = true
+    title = "Our Approach"
+    subtitle = "Culture eats strategy for breakfast"
+    bgImage = "img/paul-hanaoka-285358.jpg"
+    content = "In numerous surveys, culture is listed as the single most significant impediment to organizational transformations. At Mitten, we help our clients identify meaningful but subtle shifts within the context of organizational constraints to gain advocacy."
+    #[params.feature.button]
+    #  caption = "View Works"
+    #  url = "#"
+
+  [params.call]
+    enable = true
+    bgImage = "img/call-to-action-bg.jpg"
+    title = "Ready to embrace Product Ops?"
+    paragraph = "Curious to learn more? Have a product question?"
+    [params.call.button]
+      url = "https://calendly.com/mitten/intro"
+      text = "Let's talk!"
+
+  [params.contact]
+    enable = true
+    title = "We want to hear from you."
+    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    [params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Already in San Diego? Let's get together."
+    #  address = "San Diego, CA"
+      email = "Email: info@mitten.consulting"
+      phone = "Phone: 619.905.7866"
+    #[params.contact.gmaps]
+    #  title = "We Also Count in Google Maps"
