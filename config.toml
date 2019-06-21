@@ -99,7 +99,7 @@ theme = "airspace-hugo"
     [params.contact.box]
       title = "Already in San Diego? Let's get together."
     #  address = "San Diego, CA"
-      email = "Email: info@mitten.consulting"
+      email = "Email: ben@mitten.consulting"
       phone = "Phone: 619.905.7866"
     #[params.contact.gmaps]
     #  title = "We Also Count in Google Maps"
