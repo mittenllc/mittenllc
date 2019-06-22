@@ -1,5 +1,5 @@
 +++
 title = "Thank You"
-id = "thank-you"
+id = "thanks"
 bgImage = "img/leo-fosdal.jpg"
 +++
