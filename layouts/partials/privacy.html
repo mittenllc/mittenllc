@@ -1,0 +1,36 @@
+{{ partial "global-header.html" . }}
+
+{{ if .Site.Data.privacy.enable }}
+<!-- privacy Start -->
+<section id="privacy">
+  <div class="container">
+
+    <!-- Intro -->
+    <div class="row">
+      <div class="section-title">
+        <h2>{{ .Site.Data.privacy.title }}</h2>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="row">
+      {{ range .Site.Data.privacy.content }}
+      
+        <div class="service-item">
+          <i class="{{ .name }}"></i>
+          <h4>{{ .name }}</h4>
+          <p>{{ .text | safeHTML }} </p>
+          <p>{{ .text1 }} </p>
+          <p>{{ .text2 }} </p>
+          <br />
+        </div>
+      
+      {{ end }}
+    </div>
+    <!-- Content End -->
+
+
+  </div>
+</section>
+
+{{ end }}
