@@ -17,12 +17,12 @@ content:
   - icon: ion-aperture
     name: Metrics
     text: >
-      Implement outcome-based roadmaps and metrics to ensure delightful user experiences and successful, timely test events
+      Implement outcome-based roadmaps and metrics to ensure delightful user experiences, successful test events, and timely deliveries
   
   - icon: ion-navigate
     name: Transformation
     text: >
-      We work alongside your resources to institutionalize ProductOps while delivering continuous value
+      We work alongside your resources to institutionalize ProductOps while continuously delivering value
 
   # - icon: ion-headphone
   #  name: Logo Design
