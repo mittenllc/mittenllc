@@ -82,7 +82,7 @@ h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;  /*-- updated from 16px --*/
   line-height: 28px;
 }
 
@@ -108,7 +108,7 @@ a:active {
 }
 
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 30px; /*-- original 70px --*/
 }
 
 .section-title h2 {
@@ -242,17 +242,20 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #intro {
+  text-align: center; /*-- new --*/
   padding: 100px 0;
 }
 
 #intro .block h2 {
-  padding-top: 35px;
+  /*-- padding-top: 35px; --*/
   line-height: 27px;
   margin: 0;
+  padding-bottom: 20px;
 }
 
 #intro .block p {
-  color: #7B7B7B;
+  font-size: 16px; /*-- new size --*/
+  color: #3C3C3C;  /*-- #7B7B7B --*/
   padding-top: 20px;
 }
 
@@ -267,8 +270,33 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #intro .section-title p {
   padding-top: 20px;
-  font-size: 18px;
+  font-size: 20px;
 }
+
+/*-- New --*/
+
+#intro .block li {
+  padding-top: 5px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#intro .service-item {
+  padding-bottom: 30px;
+}
+
+#intro .service-item i {
+  font-size: 60px;
+  color: #4A4656;
+  padding-top: 20px;
+}
+
+#intro .service-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: #666;
+}
+/*-- End New --*/
 
 /*--
 	service Start
@@ -376,8 +404,18 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature h2 {
   font-size: 28px;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
+
+/*-- new --*/
+#feature .section-title p {
+  font-size: 20px;
+}
+
+#feature .block p {
+  color: #7B7B7B
+}
+/*-- end new --*/
 
 #feature p {
   color: #3C3C3C;  /*-- #8d8f92 --*/
@@ -782,6 +820,10 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #contact-form {
   padding-top: 70px;
+  padding-bottom: 35px;
+}
+
+#contact-form h2{
   padding-bottom: 35px;
 }
 

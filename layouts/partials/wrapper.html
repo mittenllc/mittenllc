@@ -2,19 +2,43 @@
 <section id="intro">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
+      <!-- <div class="col-md-7 col-sm-12"> -->
         <div class="block">
           <div class="section-title">
             <h2>{{ .Site.Params.wrapper.title }}</h2>
             <p>{{ .Site.Params.wrapper.italic }}</p>
           </div>
+          
+          <!-- new -->
+          <div class="row">
+            {{ range .Site.Data.service.content }}
+            <div class="col-sm-6 col-md-3">
+              <div class="service-item">
+                <i class="{{ .icon }}"></i>
+                <h4>{{ .name }}</h4>
+                <p>{{ .text }}</p>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+          <!-- new end -->
+
+          <!-- 
           <p>{{ .Site.Params.wrapper.paragraph }}</p>
+          <li>{{ .Site.Params.wrapper.benefit1 }}</li>
+          <li>{{ .Site.Params.wrapper.benefit2 }}</li>
+          <li>{{ .Site.Params.wrapper.benefit3 }}</li>
+          -->
+
         </div>
       </div><!-- .col-md-7 close -->
+      
+      <!-- 
       <div class="col-md-5 col-sm-12">
         <div class="block">
          <img src="{{ with .Site.Params.wrapper.image }} {{ . | absURL }} {{ end }}" alt="Img">
         </div>
+      -->
       </div><!-- .col-md-5 close -->
     </div>
   </div>

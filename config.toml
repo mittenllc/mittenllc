@@ -17,10 +17,10 @@ theme = "airspace-hugo"
     #  weight = 3
     #  name = "Blog"
     #  url = "/blog"
-    [[menu.header]]
-      weight = 4
-      name = "Service"
-      url = "/service"
+    #[[menu.header]]
+    #  weight = 4
+    #  name = "Service"
+    #  url = "/service"
     [[menu.header]]
       weight = 5
       name = "Contact"
@@ -44,24 +44,27 @@ theme = "airspace-hugo"
     #  url = "/blog"
     [[menu.footer]]
       weight = 5
-      name = "Terms"
-      url = "/terms"
+      name = "Privacy"
+      url = "/privacy"
 
   [params.slider]
     enable = true
     title = "A Product Operations Company"
-    subtitle = "Product Management tailored for Dept. of Defense, Federal Agencies, and US Government contractors"
+    subtitle = "Product Management for Dept. of Defense, Federal Agencies, and US Government contractors"
     bgImage = "img/leo-fosdal.jpg"
-    btnText = "Discover Our Services"
-    url = "/service"
+    btnText = "Contact Us"
+    url = "/contact"
 
   [params.wrapper]
     enable = true
     image = "img/beverage-blackboard-coffee.jpg"
-    title = "About Us"
-    italic = " Product is in our DNA"
-    paragraph = "From the introduction of the first 802.11 operational network to advancing the adoption of user-centric requirements, Mitten has been transforming the way DoD Components are defining and engineering through a product-first approach."
-  
+    title = "The best from industry, tailored for your organization"
+    #italic = "placeholder"
+    paragraph = "We work alongside clients to:"
+    #benefit1 = "Develop your workforce while building great products"
+    #benefit2 = "Improve requirements through user engagement"
+    #benefit3 = "Find leverage at scale with a service-based architecture"
+      
   [params.blog]
     enable = false
     title = "Get The Latest On What We're doing"
@@ -70,9 +73,10 @@ theme = "airspace-hugo"
   [params.feature]
     enable = true
     title = "Our Approach"
-    subtitle = "Culture eats strategy for breakfast"
+    italic = "'Start with the customer experience and walk backwards to the technology' -Steve Jobs"
+    subtitle = "Start with the customer experience"
     bgImage = "img/paul-hanaoka-285358.jpg"
-    content = "In numerous surveys, culture is listed as the single most significant impediment to organizational transformations. At Mitten, we help our clients identify meaningful but subtle shifts within the context of organizational constraints to gain advocacy."
+    content = "From Abbreviated Acquisition (AAP) to Acquisition Category 1 (ACAT 1) Programs, we know how to work with all levels of Government. <br /> <br /> Technology lock-in? We partner with Resource Sponsors, Program Management Offices, and Stakeholders to ensure the user is the primary consideration throughout a Program’s lifecycle. <br /><br /> 100s of system-level requirements? We tailor commercial innovations like the Lean Canvas to provide Mission-driven organizations user and operational value propositions for which to solve. <br /> <br /> Agile development? It may not be right for your organization or situation, but you can still leverage the benefits of the framework with the proper Acquisition or Contract Strategy."
     #[params.feature.button]
     #  caption = "View Works"
     #  url = "#"
@@ -80,7 +84,7 @@ theme = "airspace-hugo"
   [params.call]
     enable = true
     bgImage = "img/call-to-action-bg.jpg"
-    title = "Ready to embrace Product Ops?"
+    title = "Are you ready for ProductOps?"
     paragraph = "Curious to learn more? Have a product question?"
     [params.call.button]
       url = "https://calendly.com/mitten/intro"
@@ -97,7 +101,7 @@ theme = "airspace-hugo"
       message = "Your message"
       button = "Send message"
     [params.contact.box]
-      title = "Already in San Diego? Let's get together."
+      title = "We would like to hear from you."
     #  address = "San Diego, CA"
       email = "Email: ben@mitten.consulting"
       phone = "Phone: 619.905.7866"

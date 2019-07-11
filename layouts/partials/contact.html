@@ -5,6 +5,9 @@
 <section id="contact-form">
   <div class="container">
     <div class="row">
+      
+    <!-- old contact form
+
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <form id="contactform" method="POST">
@@ -22,17 +25,31 @@
             </div>
             <input type="hidden" name="subject" value="Website contact" />
             <input type="text" name="_gotcha" style="display:none" />
-            <button class="btn btn-default" formaction="https://formspree.io/info@mitten.consulting" type="submit">{{ .form.button }}</button>
+            <button class="btn btn-default" formaction="https://formspree.io/XXX.XXX@xxxten.consulting" type="submit">{{ .form.button }}</button>
             <input type="hidden" name="_next" value="/thank-you"/>
           </form>
         </div>
       </div>
-      <div class="col-md-6 col-sm-12">
+      
+      -->
+      <h2>{{ .box.title }}</h2>
+      
+      <!-- Hubspot form -->
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+      <script>
+        hbspt.forms.create({
+	      portalId: "3007986",
+	      formId: "03f9afd3-13d3-47e6-80ac-879906a70a63"
+        });
+      </script>
+    <!-- End Hubspot form -->
+
+    <!--
+    <div class="col-md-6 col-sm-12">
         <div class="block">
             <h2>{{ .box.title }}</h2>
+            
             <ul class="address-block">
-            <!-- eliminating until address is defined -->
-            <!--
               <li>
                 <i class="fa fa-map-marker"></i>{{ .box.address }}
               </li>
@@ -43,7 +60,7 @@
                 <i class="fa fa-phone"></i>{{ .box.phone }}
               </li>
             </ul>
-            -->
+            
             <ul class="social-icons">
             {{ range .social }}  
               <li>
@@ -54,6 +71,7 @@
         </div>
       </div>
     </div>
+  -->
   </div>
 </section>
 {{ end }}

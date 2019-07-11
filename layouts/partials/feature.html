@@ -4,16 +4,20 @@
    <!--
     <div class="col-md-6 col-md-offset-6">
     -->
+    <div class="section-title">
       <h2 class="text-uppercase">{{ .Site.Params.feature.title }}</h2>
-      <p>
-      	{{ .Site.Params.feature.content | markdownify }}
-      </p>
-      {{ with .Site.Params.feature.button }}
-      	<a href="{{ .url }}" class="btn btn-main">{{ .caption }}</a>
-      {{ end }}
+      <!-- New -->
+      <p>{{ .Site.Params.feature.italic }}</p> <!-- New -->
+    </div>
+    <p>{{ .Site.Params.feature.content | markdownify }}</p>
+    {{ with .Site.Params.feature.button }}
+      <a href="{{ .url }}" class="btn btn-main">{{ .caption }}</a>
+    {{ end }}
+    
     <!--
     </div>
     -->
+  
   </div>
 </div>
 </section>
