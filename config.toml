@@ -102,8 +102,8 @@ theme = "airspace-hugo"
       button = "Send message"
     [params.contact.box]
       title = "We would like to hear from you."
-    #  address = "San Diego, CA"
+    #  address = "Nashville, TN"
       email = "Email: ben@mitten.consulting"
-      phone = "Phone: 619.905.7866"
+      phone = "Phone: 619.439.8706"
     #[params.contact.gmaps]
     #  title = "We Also Count in Google Maps"
